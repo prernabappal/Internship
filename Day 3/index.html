@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> DAY 3</title>
+        <style>
+            table {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-collapse: collapse;
+                width: 50%;
+                
+            }
+            td, th{
+                border: 3px solid black;
+                text-align: center;
+                padding: 20px;
+                
+            }
+            tr:nth-child(odd){
+                background-color: rgb(238, 226, 171);
+            }
+            tr:nth-child(even){
+                background-color: rgb(140, 199, 247);
+            }
+            button {
+                 width: auto;
+                 background: #60a9ec;
+                color: rgb(0, 0, 0);
+                padding: 15px 43px;
+                font-weight: bold;
+                 border: none;
+                 cursor: pointer;
+                  }
+        </style>
+    </head>
+    <body style="background-color: rgb(228, 237, 100);">
+        
+        <table>
+            <tr><h1><u>Student details</u></h1></tr>
+            
+            <tr>
+                <th><u>Name</u></th>
+                <th><u>Email</u></th>
+            </tr>
+            <tr>
+                <td>Prerna</td>
+                <td>Prerna@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Rhea</td>
+                <td>Rhea@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shashi</td>
+                <td>shashi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Praveen</td>
+                <td>Praveen@Yahoo.com</td>
+            </tr>
+        </table>
+    </body>
+
+
+    <form action="thanks.html">
+        <tr><h1><u>Registration Form</u></h1></tr>
+        <div>
+            <label for=""><b>Name</b>:</label>
+            <input type="text"required/>
+        </div><br>
+        <div>
+            <label for=""><b>E-mail</b>:</label>
+            <input type="email"required/>
+        </div><br>
+        <div>
+            <label for=""><b>Contact</b>:</label>
+            <input type="number"required/>
+        </div><br>
+        <div>
+            <label for=""><b>Password</b>:</label>
+            <input type="password"required/>
+        </div><br>
+        <button type="Submit"><b>    submit now</b></button>
+    </form>
+
+</html>
