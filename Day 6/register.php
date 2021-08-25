@@ -1,6 +1,6 @@
 <?php
 $name =$_POST["name"];
-echo "Email: ";
+echo "Name: ";
 echo $name;
 echo"<br>";
 
