@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>jquery</title>
+</head>
+<body>
+    <p id="demo">Hi Everybody!!!</p>
+    <p id="display"></p>
+
+    <script>
+        $(document).ready(function() {
+            var a = $("demo");
+            $("display").text("The text of p tag is: " + a[0].innerHTML);
+        });
+    </script>
+</body>
+</html>
